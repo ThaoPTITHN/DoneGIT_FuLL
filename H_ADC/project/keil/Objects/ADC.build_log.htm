@@ -1,0 +1,126 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: thao ADMIN, ptit, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\Users\ADMIN\OneDrive - ptit.edu.vn\Documents\Rent\MacThanh_Hoang\20220317_Passwork_RTC\project\keil\LCD20x4_DongHoThoiGianThuc.uvprojx
+Project File Date:  03/18/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'LCDx4'
+assembling startup_stm32f10x_md.s...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_it.c...
+compiling main.c...
+..\..\myLibrary\Keypad.h(40): warning:  #1295-D: Deprecated declaration Display1 - give arg types
+  void Display1();
+..\..\myLibrary\Keypad.h(42): warning:  #1295-D: Deprecated declaration Password - give arg types
+  void Password();
+..\..\myLibrary\Keypad.h(43): warning:  #1295-D: Deprecated declaration GPIO_Configure - give arg types
+  void GPIO_Configure();
+..\..\myLibrary\Keypad.h(46): warning:  #1295-D: Deprecated declaration Caculor - give arg types
+  void Caculor();
+..\..\myLibrary\Keypad.h(47): warning:  #1295-D: Deprecated declaration Check - give arg types
+  void Check();
+..\..\myLibrary\RTC.h(3): warning:  #1295-D: Deprecated declaration DisplayClock - give arg types
+  void DisplayClock();
+..\..\myLibrary\RTC.h(4): warning:  #1295-D: Deprecated declaration RTC_Configure - give arg types
+  void RTC_Configure();
+..\..\myLibrary\RTC.h(5): warning:  #1295-D: Deprecated declaration RTC_Configuration - give arg types
+  void	RTC_Configuration();
+..\..\myLibrary\RTC.h(6): warning:  #1295-D: Deprecated declaration Time_Current - give arg types
+  void	Time_Current();
+..\..\myLibrary\RTC.h(8): warning:  #1-D: last line of file ends without a newline
+  void  GetTIMER();
+..\..\myLibrary\RTC.h(8): warning:  #1295-D: Deprecated declaration GetTIMER - give arg types
+  void  GetTIMER();
+..\main.c(62): warning:  #177-D: variable "a" was declared but never referenced
+  		logmsg_t a;
+..\main.c(73): warning:  #177-D: variable "a" was declared but never referenced
+  	  logmsg_t a;
+..\main.c(83): warning:  #177-D: variable "a" was declared but never referenced
+  	  logmsg_t a;
+..\main.c(91): warning:  #177-D: function "LOGTASK" was declared but never referenced
+  static void LOGTASK( void *pvParameters )
+..\main.c: 15 warnings, 0 errors
+compiling system_stm32f10x.c...
+compiling DelayTimer.c...
+compiling Button.c...
+compiling Keypad.c...
+..\..\myLibrary\Keypad.h(40): warning:  #1295-D: Deprecated declaration Display1 - give arg types
+  void Display1();
+..\..\myLibrary\Keypad.h(42): warning:  #1295-D: Deprecated declaration Password - give arg types
+  void Password();
+..\..\myLibrary\Keypad.h(43): warning:  #1295-D: Deprecated declaration GPIO_Configure - give arg types
+  void GPIO_Configure();
+..\..\myLibrary\Keypad.h(46): warning:  #1295-D: Deprecated declaration Caculor - give arg types
+  void Caculor();
+..\..\myLibrary\Keypad.h(47): warning:  #1295-D: Deprecated declaration Check - give arg types
+  void Check();
+..\..\myLibrary\Keypad.c: 5 warnings, 0 errors
+compiling LCD_I2C.c...
+compiling PWM.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling heap_2.c...
+compiling list.c...
+compiling queue.c...
+compiling port.c...
+compiling RTC.c...
+..\..\myLibrary\RTC.h(3): warning:  #1295-D: Deprecated declaration DisplayClock - give arg types
+  void DisplayClock();
+..\..\myLibrary\RTC.h(4): warning:  #1295-D: Deprecated declaration RTC_Configure - give arg types
+  void RTC_Configure();
+..\..\myLibrary\RTC.h(5): warning:  #1295-D: Deprecated declaration RTC_Configuration - give arg types
+  void	RTC_Configuration();
+..\..\myLibrary\RTC.h(6): warning:  #1295-D: Deprecated declaration Time_Current - give arg types
+  void	Time_Current();
+..\..\myLibrary\RTC.h(8): warning:  #1-D: last line of file ends without a newline
+  void  GetTIMER();
+..\..\myLibrary\RTC.h(8): warning:  #1295-D: Deprecated declaration GetTIMER - give arg types
+  void  GetTIMER();
+..\..\myLibrary\RTC.c: 6 warnings, 0 errors
+compiling timers.c...
+compiling tasks.c...
+linking...
+Program Size: Code=11148 RO-data=268 RW-data=164 ZI-data=19044  
+".\Objects\ADC.axf" - 0 Error(s), 26 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\ADMIN\OneDrive - ptit.edu.vn\Documents\Rent\MacThanh_Hoang\20220317_Passwork_RTC\project\keil\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
