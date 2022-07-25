@@ -1,7 +1,7 @@
 /**
   ******************************************************************************
   * @file    Project/STM32F10x_StdPeriph_Template/main.c 
-  * @author  Vuong Viet Thao
+  * @author  Vuong Viet Thao B18DCDT237
   * @version V3.5.0
   * @date    9-2-2022
   * @brief   Main program body
@@ -100,7 +100,7 @@ static void LOGTASK( void *pvParameters )
 }
 int main(void)
 {
-	SystemInit();			 //系统时钟配置system_stm32f10x.c中
+	SystemInit();			 //脧碌脥鲁脢卤脰脫脜盲脰脙system_stm32f10x.c脰脨
 	LED_Init();
 	DelayTimer_Init();
 	RTC_Configuration();
